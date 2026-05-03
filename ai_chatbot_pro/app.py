@@ -12,7 +12,7 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1"
 )
 
-st.set_page_config(page_title="AI Chatbot", page_icon="🤖")
+st.set_page_config(page_title="AI Chatbot", page_icon="🤖") 
 
 st.sidebar.title("⚙️ Settings")
 
